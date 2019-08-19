@@ -17,3 +17,4 @@ describe("<Controls />", () => {
       expect(closeSpy).toBeCalled();
     });
 });
+//
