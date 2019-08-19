@@ -7,5 +7,5 @@ describe('<Display/>', () => {
         const {queryByText} = render(<Display/>);
         expect(queryByText(/unlocked/i)).toBeTruthy;
         expect(queryByText(/open/i)).toBeTruthy;
-    })
+    });
 })
